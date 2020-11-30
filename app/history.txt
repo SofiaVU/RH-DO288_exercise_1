@@ -1,0 +1,867 @@
+    1  2020-09-07 15:00:16 /home/svidalur/.local/share/keyrings
+    2  2020-09-07 15:00:30 cd /home/svidalur/.local/share/keyrings
+    3  2020-09-07 15:00:32 ls
+    4  2020-09-07 15:00:37 cat login.keyring 
+    5  2020-09-07 15:00:40 clear
+    6  2020-09-07 15:00:41 ls
+    7  2020-09-07 15:00:47 ll -a
+    8  2020-09-07 15:01:15 rm login.keyring user.keystore 
+    9  2020-09-07 15:01:17 ls
+   10  2020-09-10 09:58:30 sudo dnf install bluejeans
+   11  2020-09-17 17:04:27 ssh -i ~/.ssh/your_private_key_name svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   12  2020-09-17 17:29:40 ssh -i ~/.ssh/id_rsa.pub
+   13  2020-09-17 17:30:05 ssh -i /home/svidalur/.ssh/id_rsa.pub 
+   14  2020-09-17 17:30:10 ssh /home/svidalur/.ssh/id_rsa.pub 
+   15  2020-09-17 17:30:23 pwd
+   16  2020-09-17 17:30:37 cat /home/svidalur/.ssh/id_rsa.pub 
+   17  2020-09-17 17:31:23 ssh -i $(echo "/home/svidalur/.ssh/id_rsa.pub")
+   18  2020-09-17 17:31:47 ssh --i /home/svidalur/.ssh/id_rsa.pub 
+   19  2020-09-17 17:31:55 ssh -i /home/svidalur/.ssh/id_rsa.pub 
+   20  2020-09-17 17:12:24 ssh -i ~/.ssh/your_private_key_name
+   21  2020-09-17 17:15:45 ssh-keygen -t rsa
+   22  2020-09-17 17:20:27 /home/svidalur/.ssh/id_rsa
+   23  2020-09-17 17:20:36 cat /home/svidalur/.ssh/id_rsa
+   24  2020-09-17 17:23:24 cat /home/svidalur/.ssh/id_rsa.pub 
+   25  2020-09-17 17:29:09 ssh -i /home/svidalur/.ssh/id_rsa.pub 
+   26  2020-09-17 17:32:21 ssh -i /home/svidalur/.ssh/id_rsa
+   27  2020-09-17 17:32:47 ssh -i /home/svidalur/.ssh/id_rsa.pub
+   28  2020-09-17 17:33:05 cat  /home/svidalur/.ssh/id_rsa.pub
+   29  2020-09-17 17:33:17 ssh -i
+   30  2020-09-17 17:33:53 ssh -i ~/.ssh/ svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   31  2020-09-17 17:34:35 ssh -i /home/svidalur/.ssh/id_rsa.pub 
+   32  2020-09-17 17:35:08 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   33  2020-09-17 21:29:17 exit
+   34  2020-09-17 18:55:05 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   35  2020-09-17 21:29:19 exit
+   36  2020-09-18 08:45:17 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   37  2020-09-18 11:40:21 ls
+   38  2020-09-18 11:40:23 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   39  2020-09-18 12:34:23 ls
+   40  2020-09-18 12:34:26 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   41  2020-09-18 11:05:30 ll
+   42  2020-09-18 11:07:05 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   43  2020-09-18 11:23:25 ll
+   44  2020-09-18 11:23:28 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   45  2020-09-18 15:58:07 exit
+   46  2020-09-25 10:49:58 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   47  2020-09-25 10:04:32 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   48  2020-09-25 16:28:13 exit
+   49  2020-09-25 10:16:34 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   50  2020-09-25 10:41:20 journalctl
+   51  2020-09-25 10:42:26 journalctl -b
+   52  2020-09-25 10:46:49 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   53  2020-09-25 16:28:16 exit
+   54  2020-09-28 10:55:47 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.ad30.example.opentlc.com
+   55  2020-10-14 10:56:28 cat ~/.ssh/id_rsa
+   56  2020-10-14 10:57:16 cat ~/.ssh/id_rsa.pub 
+   57  2020-10-14 11:44:01 clear
+   58  2020-10-14 11:46:46 RHT_OCP4_DEV_USER=svidalur
+   59  2020-10-14 11:46:56 echo ${RHT_OCP4_DEV_USER}
+   60  2020-10-14 11:47:19 RHT_OCP4_DEV_PASSWORD=5cd182eb886e4d77b562
+   61  2020-10-14 11:47:33 RHT_OCP4_MASTER_API=https://api.na45.prod.nextcle.com:6443
+   62  2020-10-14 11:47:46 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+   63  2020-10-14 11:51:08 subscription-manager register
+   64  2020-10-14 11:52:01 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.4e5f.sandbox1405.opentlc.com
+   65  2020-10-14 12:02:17 clear
+   66  2020-10-14 12:02:23 subscription-manager register
+   67  2020-10-14 12:04:45 sudo -
+   68  2020-10-14 12:04:56 su -
+   69  2020-10-14 12:06:32 ls
+   70  2020-10-14 12:06:39 sudo vim prueba
+   71  2020-10-14 12:10:18 sudo apt-get update
+   72  2020-10-14 12:10:57 su -
+   73  2020-10-14 12:11:28 sudo su -
+   74  2020-10-14 12:14:45 echo ${RHT_OCP4_DEV_USER}
+   75  2020-10-14 12:14:57 oc login -u ${RHT_OCP4_DEV_USER} -p \
+   76  2020-10-14 12:15:39 oc logi
+   77  2020-10-14 12:15:43 oc login
+   78  2020-10-14 12:16:04 $ oc new-app https://github.com/<your_user>/<your_git_repo>
+   79  2020-10-14 12:20:29 sudo su 
+   80  2020-10-14 12:30:14 cd /home/svidalur/Downloads/
+   81  2020-10-14 12:30:33 ll | grep oc.
+   82  2020-10-14 12:30:50 ll | grep oc 
+   83  2020-10-14 12:31:24 chown svidalur:svidalur oc
+   84  2020-10-14 12:31:29 sudo chown svidalur:svidalur oc
+   85  2020-10-14 12:31:34 ll | grep oc 
+   86  2020-10-14 12:32:04 ls -l ~
+   87  2020-10-14 12:33:29 mkdir ~/bin
+   88  2020-10-14 12:33:31 ll
+   89  2020-10-14 12:33:37 ls -l ~
+   90  2020-10-14 12:33:56 cp /home/svidalur/Downloads/oc ~/bin
+   91  2020-10-14 12:34:06 oc login
+   92  2020-10-14 12:34:20 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+   93  2020-10-14 12:34:32 ls -la /home/
+   94  2020-10-14 12:37:27 oc completion bash >>/etc/bash_completion.d/oc_completion
+   95  2020-10-14 12:37:34 sudo oc completion bash >>/etc/bash_completion.d/oc_completion
+   96  2020-10-14 12:38:05 la -la /etc/bash_completion.d/
+   97  2020-10-14 12:38:14 ls -la /etc/bash_completion.d/
+   98  2020-10-14 12:38:42 sudo su 
+   99  2020-10-14 12:40:49 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  100  2020-10-14 12:41:17 RHT_OCP4_DEV_USER=svidalur
+  101  2020-10-14 12:41:31 RHT_OCP4_DEV_PASSWORD=5cd182eb886e4d77b562
+  102  2020-10-14 12:41:46 RHT_OCP4_MASTER_API=https://api.na45.prod.nextcle.com:6443
+  103  2020-10-14 12:41:57 echo ${RHT_OCP4_DEV_USER}
+  104  2020-10-14 12:42:34 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  105  2020-10-14 16:10:48 oc new-project svidalur-ocp
+  106  2020-10-14 16:16:47 oc new-app --as-deployment-config php:7.3~https://github.com/RedHatTraining/DO180-apps --context-dir temps --name temps
+  107  2020-10-14 16:18:50 oc status
+  108  2020-10-14 16:19:11 oc logs -f bc/temps
+  109  2020-10-14 16:19:24 oc get pods -w
+  110  2020-10-14 16:19:34 oc get pods
+  111  2020-10-14 16:22:38 oc expose svc/temps
+  112  2020-10-14 16:23:27 curl  http://temps-svidalur-ocp.apps.cluster.lab.example.com
+  113  2020-10-14 16:25:27 oc get routes
+  114  2020-10-14 16:25:50 curl http://temps-svidalur-ocp.apps.na45.prod.nextcle.com
+  115  2020-10-14 16:26:06 clear
+  116  2020-10-14 17:14:51 sudo dnf install virt-manager
+  117  2020-10-14 17:15:21 sudo install virt-manager
+  118  2020-10-14 17:16:05 yum install qemu-kvm libvirt libvirt-python libguestfs-tools virt-install
+  119  2020-10-14 17:16:09 sudo yum install qemu-kvm libvirt libvirt-python libguestfs-tools virt-install
+  120  2020-10-14 17:17:35 sudo yum install virt-manager
+  121  2020-10-14 17:18:38 sudo yum -y install libvirt libvirt-daemon-driver-qemu qemu-kvm
+  122  2020-10-14 17:18:54 exit
+  123  2020-10-14 17:19:03 sudo yum -y install libvirt libvirt-daemon-driver-qemu qemu-kvm
+  124  2020-10-14 17:20:21 yum update
+  125  2020-10-14 17:20:27 sudo yum update
+  126  2020-10-14 17:21:01 sudo dnf clean all
+  127  2020-10-14 17:21:07 sudo rm -r /var/cache/dnf
+  128  2020-10-14 17:21:11 sudo dnf upgrade
+  129  2020-10-14 17:39:51 dnf copr enable karmab/kcli 
+  130  2020-10-14 17:39:58 sudo dnf copr enable karmab/kcli 
+  131  2020-10-14 17:40:23 kcli
+  132  2020-10-14 17:40:57 dnf -y copr enable karmab/kcli ; dnf -y install kcli
+  133  2020-10-14 17:41:09 sudo dnf -y copr enable karmab/kcli ;sudo dnf -y install kcli
+  134  2020-10-14 17:42:14 sudo dnf install dnf-plugins-core
+  135  2020-10-14 17:44:33 dnf install dnf-plugins-core
+  136  2020-10-14 17:46:01 sudo dnf install dnf-plugins-core
+  137  2020-10-14 17:46:22 dnf repolist
+  138  2020-10-14 17:46:49 kcli
+  139  2020-10-14 17:52:03 dnf repolist
+  140  2020-10-14 11:38:16 pwd
+  141  2020-10-14 11:38:20 cd ~
+  142  2020-10-14 11:38:42 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@bastion.4e5f.sandbox1405.opentlc.com
+  143  2020-10-15 08:15:56 ll
+  144  2020-10-15 08:16:48 mkdir role_labs
+  145  2020-10-15 08:16:53 cd role_labs/
+  146  2020-10-15 08:17:45 git clone https://github.com/RedHatTraining/DO180-apps.git
+  147  2020-10-15 08:22:08 ll
+  148  2020-10-15 08:22:11 cd DO180-apps/
+  149  2020-10-15 08:24:44 ll
+  150  2020-10-15 08:33:08 sudo podman search mysql
+  151  2020-10-15 08:34:51 yum install podman
+  152  2020-10-15 08:34:57 sudo yum install podman
+  153  2020-10-15 08:39:58 sudo podman search mysql
+  154  2020-10-15 08:49:58 sudo podman build -t registry.access.redhat.com/rhscl/mysql-57-rhel7 --layers=false
+  155  2020-10-15 08:50:18 sudo podman pull registry.access.redhat.com/rhscl/mysql-57-rhel7
+  156  2020-10-15 08:51:52 sudo pdman images
+  157  2020-10-15 08:52:19 sudo podman images
+  158  2020-10-15 08:53:19 ll
+  159  2020-10-15 08:55:48 sudo podman search nodejs
+  160  2020-10-15 08:58:59 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8
+  161  2020-10-15 09:00:07 sudo podman images
+  162  2020-10-15 09:00:25 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8 | grep rhel
+  163  2020-10-15 09:00:41 sudo podman search nodejs | grep rhel
+  164  2020-10-15 09:01:58 sudo podman search nodejs
+  165  2020-10-15 09:02:22 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8
+  166  2020-10-15 09:11:02 sudo podman mages
+  167  2020-10-15 09:11:18 sudo podman images
+  168  2020-10-15 09:11:44 sudo podman build -t registry.access.redhat.com/ubi7/nodejs-8 --layers=false
+  169  2020-10-15 09:12:02 sudo podman build -t registry.access.redhat.com/ubi7/nodejs-8 --layers=false .
+  170  2020-10-15 09:13:52 ll
+  171  2020-10-15 09:14:03 cd todoapp/
+  172  2020-10-15 09:14:05 ll
+  173  2020-10-15 09:14:35 cd ../nodejs-app/
+  174  2020-10-15 09:14:38 ll
+  175  2020-10-15 09:15:13 cd ../todoapp/
+  176  2020-10-15 09:15:15 ll
+  177  2020-10-15 09:15:23 ll nodejs
+  178  2020-10-15 09:15:37 ll nodejs/controllers/
+  179  2020-10-15 09:15:54 ll nodejs/models/
+  180  2020-10-15 09:16:10 cat nodejs/models/db.js 
+  181  2020-10-15 09:52:14 pwd
+  182  2020-10-15 15:28:43 login quay.io
+  183  2020-10-15 15:29:14 podman search quay.io/dsanchor/credit:ubi-min-8
+  184  2020-10-15 15:29:51 podman search quay.io/dsanchor/credit
+  185  2020-10-15 15:30:05 pwd
+  186  2020-10-15 15:30:07 clear
+  187  2020-10-15 15:30:12 cd ~
+  188  2020-10-15 15:30:13 ls
+  189  2020-10-15 15:30:19 rm prueba 
+  190  2020-10-15 15:30:23 ls
+  191  2020-10-15 15:30:25 clear
+  192  2020-10-15 15:30:26 ll
+  193  2020-10-15 15:30:45 cd Desktop/SOFIA/Learning/
+  194  2020-10-15 15:30:47 clear
+  195  2020-10-15 15:32:10 podman images
+  196  2020-10-15 15:32:43 podman pull quay.io/dsanchor/credit::ubi-min-8
+  197  2020-10-15 15:32:55 podman pull quay.io/dsanchor/credit:ubi-mi
+  198  2020-10-15 15:33:04 podman pull quay.io/dsanchor/credit
+  199  2020-10-15 15:33:10 podman images
+  200  2020-10-15 15:34:29 podman pull quay.io/dsanchor/credit/ubi-mi
+  201  2020-10-15 15:34:57 podman pull quay.io/dsanchor/credit
+  202  2020-10-15 15:35:47 podman pull http://quay.io/dsanchor/credit:ubi-min-8
+  203  2020-10-15 15:35:56 podman pull quay.io/dsanchor/credit:ubi-min-8
+  204  2020-10-15 15:38:53 id
+  205  2020-10-15 15:39:08 unshare -U sleep 100 &
+  206  2020-10-15 15:39:19 newuidmap $! 0 46858 1 1 2000000 65536
+  207  2020-10-15 15:39:48 ls -l  /usr/bin/newuidmap /usr/bin/newgidmap
+  208  2020-10-15 15:40:01 getfattr -d -m '.*' /usr/bin/newuidmap /usr/bin/newgidmap
+  209  2020-10-15 15:41:32 sudo podman pull quay.io/dsanchor/credit:ubi-min-8
+  210  2020-10-15 15:42:01 podman images
+  211  2020-10-15 15:42:40 sudo podman images
+  212  2020-10-15 15:44:35 sudo podman tag quay.io/dsanchor/credit:ubi-min-8 quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  213  2020-10-15 15:44:38 sudo podman images
+  214  2020-10-15 15:53:32 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  215  2020-10-15 15:54:26 login quay
+  216  2020-10-15 15:54:33 login quay.io
+  217  2020-10-15 15:55:06 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  218  2020-10-15 16:00:23 sudo podman images
+  219  2020-10-15 16:01:09 sudo podman ps -a
+  220  2020-10-15 16:01:16 sudo images
+  221  2020-10-15 16:01:22 sudo podmna images
+  222  2020-10-15 16:01:31 sudo podman images
+  223  2020-10-15 16:03:11 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning/quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  224  2020-10-15 16:03:24 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  225  2020-10-15 16:03:52 docker pull quay.io/svidalur/container_images_lerning
+  226  2020-10-15 16:04:21 login docker-quy.io
+  227  2020-10-15 16:04:29 login docker-quay.io
+  228  2020-10-15 16:04:38 docker pull quay.io/svidalur/container_images_lerning
+  229  2020-10-15 16:05:25 sudo docker login quay.io
+  230  2020-10-15 16:27:49 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  231  2020-10-15 16:28:35 sudo docker login quay.io
+  232  2020-10-15 16:29:35 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  233  2020-10-15 16:30:40 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning:credit:ubi-min-8-svidalurPodman
+  234  2020-10-15 16:30:52 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurPodman
+  235  2020-10-15 16:33:57 podman images
+  236  2020-10-15 16:34:00 sudo podman images
+  237  2020-10-15 16:34:19 sudo podman rmi quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  238  2020-10-15 16:34:25 sudo podman images
+  239  2020-10-15 16:35:49 sudo podman rmi quay.io/dsanchor/credit:ubi-min-8
+  240  2020-10-15 16:35:56 sudo podman images
+  241  2020-10-15 16:43:39 skopeo --help
+  242  2020-10-15 16:44:44 skopeo copy --help
+  243  2020-10-15 16:46:01 skopeo list-tags 
+  244  2020-10-15 16:46:44 skopeo list-tags quay.io/svidalur/container_images_lerning
+  245  2020-10-15 16:47:22 skopeo list-tags quay.io://svidalur/container_images_lerning
+  246  2020-10-15 16:47:51 skopeo list-tags quay:quay.io:/svidalur/container_images_lerning
+  247  2020-10-15 16:47:56 skopeo list-tags quay:quay.io/svidalur/container_images_lerning
+  248  2020-10-15 16:48:43 skopeo list-tags docker:quay.io/svidalur/container_images_lerning
+  249  2020-10-15 16:49:02 skopeo list-tags docker://quay.io/svidalur/container_images_lerning
+  250  2020-10-15 16:50:35 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/svidalur/container_images_lerning
+  251  2020-10-15 16:51:07 skopeo login
+  252  2020-10-15 16:52:16 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  253  2020-10-15 16:52:47 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  
+  254  2020-10-15 16:52:52 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  .
+  255  2020-10-15 16:53:24 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  dir:.
+  256  2020-10-15 16:53:38 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  dir:
+  257  2020-10-15 16:54:31 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  containers-storage
+  258  2020-10-15 16:55:05 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  ocker://quay.io/dsanchor/credit:ubi-min-8-svidalurSkopeo
+  259  2020-10-15 16:55:15 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/dsanchor/credit:ubi-min-8-svidalurSkopeo
+  260  2020-10-15 16:55:40 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  quay.io/dsanchor/credit:ubi-min-8-svidalurSkopeo
+  261  2020-10-15 16:58:10 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  dir:var/lib/images/snacho-img
+  262  2020-10-15 16:58:32 sudo skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  quay.io/dsanchor/credit:ubi-min-8-svidalurSkopeo
+  263  2020-10-15 16:59:35 sudo skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 docker://image_tag
+  264  2020-10-15 17:00:45 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/dsanchor/credit:ubi-min-8-svidalurSkopeo
+  265  2020-10-15 17:22:24 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  266  2020-10-15 17:23:27 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8  docker://quay.io/svidalur/container_images_lerning
+  267  2020-10-15 11:46:31 clear
+  268  2020-10-15 11:47:51 subscription-manager register
+  269  2020-10-15 11:48:11 sudo subscription-manager register
+  270  2020-10-15 11:48:53 sudo subscription-manager status
+  271  2020-10-15 11:49:49 sudo subscription-manager service-level --show 
+  272  2020-10-15 11:50:15 sudo subscription-manager list --available 
+  273  2020-10-15 11:52:30 sudo subscription-manager list --available  | grep subscriptio Type
+  274  2020-10-15 11:52:49 sudo subscription-manager list --available  | grep "Subscription Type"
+  275  2020-10-15 11:58:14 yum repolist
+  276  2020-10-15 16:21:29 mkdir /etc/containers/nodocker
+  277  2020-10-15 16:21:33 sudo mkdir /etc/containers/nodocker
+  278  2020-10-19 09:00:05 cd /home/svidalur/Desktop/SOFIA/Learning
+  279  2020-10-19 09:00:06 ll
+  280  2020-10-19 09:00:19 mkdir imgDir
+  281  2020-10-19 09:00:31 ll
+  282  2020-10-19 09:01:48 cd imgDir/
+  283  2020-10-19 09:01:49 ll
+  284  2020-10-19 08:59:09 pwd
+  285  2020-10-19 08:59:16 sudo podman images
+  286  2020-10-19 09:00:35 skopeo copy docker:quay.io/dsanchor/credit:ubi-min-8 docker[A
+  287  2020-10-19 09:00:51 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 dir:imgDir
+  288  2020-10-19 09:01:22 sudo podman images
+  289  2020-10-19 09:01:26 cd imgDir/
+  290  2020-10-19 09:01:27 sudo podman images
+  291  2020-10-19 09:05:14 skopeo copy dir:imgDir docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  292  2020-10-19 09:05:32 skopeo copy dir:imgDir/ docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  293  2020-10-19 09:06:23 skopeo copy docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  294  2020-10-19 09:06:30 cd ..
+  295  2020-10-19 09:06:34 skopeo copy dir:imgDir/ docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  296  2020-10-19 09:07:34 sudo docker login quay.io
+  297  2020-10-19 09:08:16 skopeo copy dir:imgDir/ docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  298  2020-10-19 09:08:50 sudo dockerps -l
+  299  2020-10-19 09:08:55 sudo docker ps -l
+  300  2020-10-19 09:09:02 cd imgDir/
+  301  2020-10-19 09:09:04 sudo docker ps -l
+  302  2020-10-19 09:10:37 cd ..
+  303  2020-10-19 09:12:00 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 docker://quay.io/svidalur/container_images_lerning
+  304  2020-10-19 09:12:30 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurPodman
+  305  2020-10-19 09:13:16 skopeo quay.io
+  306  2020-10-19 09:13:24 skopeo login quay.io
+  307  2020-10-19 09:13:38 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurPodman
+  308  2020-10-19 09:55:53 skopeo copy docker://quay.io/dsanchor/credit:ubi-min-8 docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeo
+  309  2020-10-19 09:57:14 skopeo copy dir:imgDir docker://quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurSkopeoFromDir
+  310  2020-10-20 16:44:44 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  311  2020-10-20 16:46:49 echo ${RHT_OCP4_DEV_USER}
+  312  2020-10-20 16:47:06 RHT_OCP4_DEV_USER=svidalur
+  313  2020-10-20 16:47:20 RHT_OCP4_DEV_PASSWORD=5cd182eb886e4d77b562
+  314  2020-10-20 16:47:36 RHT_OCP4_MASTER_API=https://api.na45.prod.nextcle.com:6443
+  315  2020-10-20 16:47:45 echo ${RHT_OCP4_DEV_USER}
+  316  2020-10-20 16:47:54 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  317  2020-10-29 10:14:17 cat ~/.ssh/id_rsa.pub 
+  318  2020-10-29 10:10:33 oc login -u 1efd  https://api.shared-na4.na4.openshift.opentlc.com:6443
+  319  2020-10-29 10:26:41 oc login -u svidalur-redhat.com  https://api.shared-na4.na4.openshift.opentlc.com:6443
+  320  2020-10-29 10:28:10 GUID=1efd
+  321  2020-10-29 10:28:16 echo $GUID
+  322  2020-10-29 10:28:34 oc new-project ${GUID}-env
+  323  2020-10-29 10:28:59 oc new-app https://github.com/redhat-gpte-devopsautomation/PrintEnv
+  324  2020-10-29 10:29:13 oc get pods
+  325  2020-10-29 10:38:13 oc expose svc/printenv
+  326  2020-10-29 10:38:28 oc get route
+  327  2020-10-29 10:38:45 curl printenv-1efd-env.apps.shared-na4.na4.openshift.opentlc.com
+  328  2020-10-29 10:39:17 curl $(oc get route printenv --template='{{ .spec.host }}') | jq . -S
+  329  2020-10-29 10:41:44 oc set env dc/printenv APP_VAR_1=Value1 APP_VAR_2=Value2
+  330  2020-10-29 10:42:31 oc logs bc/printenv
+  331  2020-10-29 10:42:47 oc logs dc/printenv
+  332  2020-10-29 10:42:57 oc get pods
+  333  2020-10-29 10:43:57 curl $(oc get route printenv --template='{{ .spec.host }}') | jq . -S
+  334  2020-10-29 10:46:49 oc get route
+  335  2020-10-29 10:47:05 curl printenv-1efd-env.apps.shared-na4.na4.openshift.opentlc.com | jq . -S
+  336  2020-10-29 10:47:16 curl printenv-1efd-env.apps.shared-na4.na4.openshift.opentlc.com | jq . 
+  337  2020-10-29 10:47:24 curl printenv-1efd-env.apps.shared-na4.na4.openshift.opentlc.com 
+  338  2020-10-29 10:48:33 clear
+  339  2020-10-29 10:48:55 oc log dc/printenv
+  340  2020-10-29 10:49:03 oc logs dc/printenv
+  341  2020-10-29 10:49:12 oc logs bc/printenv
+  342  2020-10-29 10:50:19 oc set env dc/printenv APP_VAR_1=Value1 APP_VAR_2=Value2
+  343  2020-10-29 10:52:05 oc deploy --latest
+  344  2020-10-29 10:52:10 oc --help
+  345  2020-10-29 10:52:56 oc rollout
+  346  2020-10-29 10:53:09 oc rollout --help
+  347  2020-10-29 10:53:40 oc rollout latest
+  348  2020-10-29 10:53:53 oc new-build
+  349  2020-10-29 10:54:01 oc new-build --help
+  350  2020-10-29 10:54:05 clear
+  351  2020-10-29 10:54:21 oc get pods
+  352  2020-10-29 10:55:00 oc set env bc/printenv APP_VAR_1=Value1 APP_VAR_2=Value2
+  353  2020-10-29 10:55:09 watch oc get pod
+  354  2020-10-30 12:43:10 python --version
+  355  2020-10-29 10:04:40 ssh opentlc-svidalur@studentvm.ssh svidalur-redhat.com@studentvm.c73d.example.opentlc.com
+  356  2020-10-29 10:05:55 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@studentvm.c73d.example.opentlc.com
+  357  2020-10-29 15:59:16 oc get pods
+  358  2020-10-29 15:59:28 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API; }
+  359  2020-10-29 15:59:42 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  360  2020-10-29 16:00:04 RHT_OCP4_DEV_USER=svidalur
+  361  2020-10-29 16:00:33 RHT_OCP4_MASTER_API=https://api.shared-na4.na4.openshift.opentlc.com:6443
+  362  2020-10-29 16:00:48 RHT_OCP4_DEV_PASSWORD=Patatafrita_08
+  363  2020-10-29 16:00:54 oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}
+  364  2020-10-29 16:01:09 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@studentvm.c73d.example.opentlc.com
+  365  2020-11-04 10:57:57 s2i
+  366  2020-11-04 10:58:03 yum install s2i
+  367  2020-11-04 10:58:09 sudo yum install s2i
+  368  2020-11-04 10:58:25 clear
+  369  2020-11-04 13:00:58 ll
+  370  2020-11-04 13:01:11 cd Desktop/
+  371  2020-11-04 13:01:12 ll
+  372  2020-11-04 13:01:26 cd SOFIA/
+  373  2020-11-04 13:01:28 ll
+  374  2020-11-04 13:01:32 cd lunch_OCP_cluster/
+  375  2020-11-04 13:01:35 ll
+  376  2020-11-04 13:01:38 cd ocp/
+  377  2020-11-04 13:01:39 ll
+  378  2020-11-04 13:02:58 clear
+  379  2020-11-04 13:02:59 ll
+  380  2020-11-04 13:03:30 ./aws-ocp4-start-ec2.sh ocp4-installation-cluster461
+  381  2020-11-04 13:03:57 export AWS_DEFAULT_REGION=eu-west-1 
+  382  2020-11-04 13:03:59 ./aws-ocp4-start-ec2.sh ocp4-installation-cluster461
+  383  2020-11-04 13:07:50 export AWS_ACCESS_KEY_ID=AKIA4DVW3V4OSJMF3WHH
+  384  2020-11-04 13:08:02 export AWS_SECRET_ACCESS_KEY=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
+  385  2020-11-04 13:08:05 ./aws-ocp4-start-ec2.sh ocp4-installation-cluster461
+  386  2020-11-04 13:10:01 oc login -u redhat -p redhat/home/svidalur/.local/share/keyrings .cluster461.sandbox758.opentlc.com:6443
+  387  2020-11-04 13:10:34 oc login -u redhat -p redhat/home/svidalur/.local/share/keyrings https://api.cluster461.sandbox758.opentlc.com:6443
+  388  2020-11-04 13:10:47 ./aws-ocp4-start-ec2.sh ocp4-installation-cluster461
+  389  2020-11-04 13:11:40 oc login -u user0 -p p4ss0 https://api.cluster461.sandbox758.opentlc.com:6443
+  390  2020-11-04 13:12:14 oc login -uuser0 -pp4ss0 https://api.cluster461.sandbox758.opentlc.com:6443
+  391  2020-11-04 13:01:47 ll
+  392  2020-11-04 13:01:49 cd ..
+  393  2020-11-04 13:01:52 vim notes 
+  394  2020-11-17 10:09:35 ll
+  395  2020-11-17 10:09:42 cd lunch_OCP_cluster/
+  396  2020-11-17 10:09:45 ll
+  397  2020-11-17 10:07:26 ls
+  398  2020-11-17 10:07:35 ll
+  399  2020-11-17 10:07:40 cd Desktop/
+  400  2020-11-17 10:07:41 ll
+  401  2020-11-17 10:07:46 cd SOFIA/
+  402  2020-11-17 10:07:47 ll
+  403  2020-11-17 10:07:53 cd lunch_OCP_cluster/
+  404  2020-11-17 10:07:55 ll
+  405  2020-11-17 10:08:04 cat notes 
+  406  2020-11-17 10:08:15 vim notes 
+  407  2020-11-17 10:08:37 cd ..
+  408  2020-11-17 10:08:38 ll
+  409  2020-11-17 10:09:12 mv lunch_OCP_cluster Learning/lunch_OCP_cluster
+  410  2020-11-17 10:09:13 ll
+  411  2020-11-17 10:09:17 cd Learning/
+  412  2020-11-17 10:09:19 ll
+  413  2020-11-17 10:23:24 cd lunch_OCP_cluster/
+  414  2020-11-17 10:23:26 ll
+  415  2020-11-17 10:23:29 cd ocp/
+  416  2020-11-17 10:23:30 ll
+  417  2020-11-17 10:41:00 vim install-config-template.yaml 
+  418  2020-11-17 10:41:20 vim aws-ocp4-config 
+  419  2020-11-17 11:11:06 ll
+  420  2020-11-17 11:11:37 cp labs-aws-ocp4-config_30-10-2020 labs-aws-ocp4-config_17-11-2020
+  421  2020-11-17 11:11:55 ll
+  422  2020-11-17 11:16:54 pwd
+  423  2020-11-17 11:17:04 export AWS_ACCESS_KEY_ID= AKIA4DVW3V4OSJMF3WHH
+  424  2020-11-17 11:17:14 export AWS_SECRET_ACCESS_KEY= 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
+  425  2020-11-17 11:17:22 export AWS_SECRET_ACCESS_KEY=jX5IdPoPLDezI32VJBOzmmxDgVd92IJ/SEzpgvLx
+  426  2020-11-17 11:17:34 export AWS_DEFAULT_REGION=eu-west-1
+  427  2020-11-17 11:17:43 export AWS_ACCESS_KEY_ID=AKIA4DVW3V4OSJMF3WHH
+  428  2020-11-17 11:22:58 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020 
+  429  2020-11-17 11:33:21 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020
+  430  2020-11-17 11:34:19 ll
+  431  2020-11-17 11:34:28 ls -la
+  432  2020-11-17 11:38:13 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020
+  433  2020-11-17 11:38:59 env | grep AWS
+  434  2020-11-17 11:41:45 ls
+  435  2020-11-17 11:41:47 ll
+  436  2020-11-17 11:43:26 export AWS_ACCESS_KEY_ID=AKIAUVI7DCREPA5HGSQX
+  437  2020-11-17 11:45:10 export AWS_SECRET_ACCESS_KEY=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
+  438  2020-11-17 11:45:29 export AWS_ACCESS_KEY_ID=AKIAUVI7DCREPA5HGSQX
+  439  2020-11-17 11:45:36 env | grep AWS
+  440  2020-11-17 11:45:45 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020
+  441  2020-11-17 11:49:50 ll
+  442  2020-11-17 11:50:45 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020
+  443  2020-11-17 12:34:35 ll
+  444  2020-11-17 14:41:35 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_17-11-2020
+  445  2020-11-17 14:54:21 oc login -uuser0 -pp4ss0 https://console-openshift-console.apps.cluster461nov.sandbox1562.opentlc.com 
+  446  2020-11-17 14:54:51 oc login -uuser0 -pp4ss0 console-openshift-console.apps.cluster461nov.sandbox1562.opentlc.com 
+  447  2020-11-17 14:55:56 oc login -uuser0 -pp4ss0 https://api.cluster461nov.sandbox1562.opentlc.com:6443 
+  448  2020-11-17 14:56:31 oc login -uredhat -predhat/home/svidalur/.local/share/keyrings https://api.cluster461nov.sandbox1562.opentlc.com:6443 
+  449  2020-11-17 14:57:05 oc login -u redhat -p redhat/home/svidalur/.local/share/keyrings https://api.cluster461nov.sandbox1562.opentlc.com:6443 
+  450  2020-11-17 14:59:08 oc login -uuser0 -pp4ss0 https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  451  2020-11-17 15:07:02 ll
+  452  2020-11-17 15:07:56 cat aws-ocp4-config 
+  453  2020-11-17 15:08:07 pwd
+  454  2020-11-17 15:08:14 ll
+  455  2020-11-17 15:08:24 cd ..
+  456  2020-11-17 15:08:26 ll
+  457  2020-11-17 15:08:27 cd --
+  458  2020-11-17 15:08:32 ll
+  459  2020-11-17 15:08:35 cd Desktop/
+  460  2020-11-17 15:08:37 ls
+  461  2020-11-17 15:08:40 cd SOFIA/
+  462  2020-11-17 15:08:41 ls
+  463  2020-11-17 15:08:52 cd lunch_OCP_cluster/
+  464  2020-11-17 15:08:53 ls
+  465  2020-11-17 15:08:59 cd ocp
+  466  2020-11-17 15:09:00 ll
+  467  2020-11-17 15:09:20 pwd
+  468  2020-11-17 15:11:16 cd ..
+  469  2020-11-17 15:11:30 ls
+  470  2020-11-17 15:11:35 cd Learning/
+  471  2020-11-17 15:11:37 ls
+  472  2020-11-17 15:11:40 ll
+  473  2020-11-17 15:11:48 cd lunch_OCP_cluster/
+  474  2020-11-17 15:11:51 ls
+  475  2020-11-17 15:11:54 cd ocp/
+  476  2020-11-17 15:11:56 ls
+  477  2020-11-17 15:12:11 cat auth/users.htpasswd 
+  478  2020-11-17 15:13:07 vim aws-ocp4-install.sh 
+  479  2020-11-17 15:14:06 htpasswd -b -n -B my_user my_password
+  480  2020-11-17 15:16:32 htpasswd -b -n -B my_user my_password
+  481  2020-11-17 15:17:09 vim auth/users.htpasswd 
+  482  2020-11-17 15:18:01 oc verison
+  483  2020-11-17 15:18:06 oc version
+  484  2020-11-17 15:18:33 which oc 
+  485  2020-11-17 15:19:29 oc create secret generic htpass-secret -n openshift-config --from-file=htpasswd=auth/users.htpasswd
+  486  2020-11-17 15:20:46 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  487  2020-11-17 15:20:58 oc get project
+  488  2020-11-17 15:21:16 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  489  2020-11-17 15:22:08 oc create secret generic htpass-secret -n openshift-config --from-file=htpasswd=auth/users.htpasswd
+  490  2020-11-17 15:22:31 oc apply -f auth/htpasswd_oauth.yam
+  491  2020-11-17 15:22:34 oc apply -f auth/htpasswd_oauth.yaml
+  492  2020-11-17 16:00:15 oc login kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  493  2020-11-17 16:00:30 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  494  2020-11-17 16:01:00 oc get user
+  495  2020-11-17 16:02:19 oc adm policy add-cluster-role-to-user cluster-admin my_user
+  496  2020-11-17 16:02:32 oc adm policy add-cluster-role-to-user cluster-admin redhat
+  497  2020-11-17 16:02:40 oc get user
+  498  2020-11-17 16:04:12 oc adm groups add-users developers my-user
+  499  2020-11-17 16:04:21 oc adm groups add-users developers my_user
+  500  2020-11-17 16:23:41 oc get project
+  501  2020-11-17 16:23:45 clear
+  502  2020-11-17 16:24:42 oc get secret
+  503  2020-11-17 16:25:18 vim aws-ocp4-install.sh 
+  504  2020-11-18 11:11:45 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  505  2020-11-18 12:41:11 oc get project 
+  506  2020-11-18 12:41:45 oc login -u my_user -p my_password https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  507  2020-11-18 12:41:57 oc get secret
+  508  2020-11-18 12:43:03 clear
+  509  2020-11-18 12:43:07 oc get secret
+  510  2020-11-18 12:43:47 oc get project| grep  kube-system
+  511  2020-11-18 12:44:10 oc get secret | grep kubeadmin
+  512  2020-11-18 12:44:25 oc delete secre kubeadmin
+  513  2020-11-18 12:44:29 oc delete secret kubeadmin
+  514  2020-11-18 12:50:36 vim aws-ocp4-install.sh 
+  515  2020-11-18 12:51:41 oc get project
+  516  2020-11-18 12:51:53 oc get project | grep kube_system
+  517  2020-11-18 12:52:06 oc get project | grep kube-system
+  518  2020-11-18 12:52:13 oc project kube-system
+  519  2020-11-18 12:52:18 oc get secret
+  520  2020-11-18 12:52:25 oc get secret | grep kube
+  521  2020-11-18 12:52:35 oc get secret | grep kubeadmin
+  522  2020-11-18 12:53:18 oc delete secret kubeadmin -n kube-system
+  523  2020-11-18 12:53:57 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  524  2020-11-18 15:05:41 oc new project svidalur-dev
+  525  2020-11-18 15:06:03 oc new-project svidalur-dev
+  526  2020-11-18 15:06:29 oc new-project svidalur-staging
+  527  2020-11-18 15:06:41 oc new-project svidalur-production
+  528  2020-11-18 15:06:48 oc get proget
+  529  2020-11-18 15:06:53 oc get project
+  530  2020-11-18 15:07:01 oc get project | grep svidalur
+  531  2020-11-18 15:16:40 pwd 
+  532  2020-11-18 15:21:45 oc get project | grep svidalur
+  533  2020-11-18 15:21:58 oc new-project svidalur-jenkins
+  534  2020-11-18 15:22:02 oc get project | grep svidalur
+  535  2020-11-18 15:42:43 oc project svidalur-jenkins 
+  536  2020-11-18 15:42:47 oc get pod
+  537  2020-11-18 15:42:58 oc create -f deploy/crds/jenkins_ephemeral_v1alpha1_jenkins_cr.yaml
+  538  2020-11-18 15:48:36 oc get pod
+  539  2020-11-18 16:50:57 pwd
+  540  2020-11-17 10:43:40 cd ~
+  541  2020-11-17 10:43:42 ll
+  542  2020-11-17 11:28:18 ssh -i ~/.ssh/id_rsa svidalur-redhat.com@studentvm.c73d.example.opentlc.com
+  543  2020-11-17 11:28:34 vim ~/.ssh/id_rsa.pub 
+  544  2020-11-18 15:16:47 pwd 
+  545  2020-11-18 15:16:54 cd Desktop/SOFIA/Learning/
+  546  2020-11-18 15:16:56 ll
+  547  2020-11-18 15:17:04 cd 3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/
+  548  2020-11-18 15:17:05 ll
+  549  2020-11-18 15:17:22 mkdir exercise_1
+  550  2020-11-18 15:17:25 cd exercise_1/
+  551  2020-11-18 15:17:32 git clone https://github.com/SofiaVU/RH-DO288_exercise_1.git
+  552  2020-11-18 15:17:37 ls
+  553  2020-11-18 15:52:29 ll
+  554  2020-11-18 15:52:34 cd RH-DO288_exercise_1/
+  555  2020-11-18 15:52:36 ll
+  556  2020-11-18 15:52:44 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme     -DprojectArtifactId=getting-started     -DclassName="org.acme.getting.started.GreetingResource"     -Dpath="/hello"
+  557  2020-11-18 15:52:58 mvn 
+  558  2020-11-18 15:55:14 sudo dnf install nvm
+  559  2020-11-18 15:55:49 sudo dnf install mvn
+  560  2020-11-18 15:57:46 sudo dnf install maven
+  561  2020-11-18 15:58:41 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme     -DprojectArtifactId=getting-started     -DclassName="org.acme.getting.started.GreetingResource"     -Dpath="/hello"
+  562  2020-11-18 16:00:49 mvn version
+  563  2020-11-18 16:01:18 mvn -version
+  564  2020-11-18 16:02:44 sudo dnf install maven@3.6.2
+  565  2020-11-18 16:03:33 sudo dnf install maven-3.6.2
+  566  2020-11-18 16:03:54 sudo dnf list maven
+  567  2020-11-18 16:05:04 sudo dnf list maven3.5
+  568  2020-11-18 16:05:32 dnf --showduplicates list maven
+  569  2020-11-18 16:05:50 sudo dnf --showduplicates list maven
+  570  2020-11-18 16:21:27 sudo mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  571  2020-11-18 16:24:11 dnf --showduplicates list maven
+  572  2020-11-18 16:24:18 sudo dnf --showduplicates list maven
+  573  2020-11-18 16:28:55 pwd
+  574  2020-11-18 16:30:13 java -version
+  575  2020-11-18 16:30:50 sudo mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  576  2020-11-18 16:34:34 sudo dnf --showduplicates list maven 
+  577  2020-11-18 16:34:56 sudo dnf update
+  578  2020-11-18 16:35:30 sudo dnf --showduplicates list maven 
+  579  2020-11-18 16:38:55 java -version
+  580  2020-11-18 16:39:34 mvn --version
+  581  2020-11-18 16:42:39 wget https://www-eu.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+  582  2020-11-18 16:42:54 sudo tar xzf apache-maven-3.6.3-bin.tar.gz
+  583  2020-11-18 16:43:09 sudo ln -s apache-maven-3.6.3 maven
+  584  2020-11-18 16:43:15 mvn -version
+  585  2020-11-18 16:43:36 sudo vi /etc/profile.d/maven.sh
+  586  2020-11-18 16:44:07 source /etc/profile.d/maven.sh
+  587  2020-11-18 16:44:12 mvn -version
+  588  2020-11-18 16:44:28 ls
+  589  2020-11-18 16:45:02 sudo vi /etc/profile.d/maven.sh
+  590  2020-11-18 16:45:36 source /etc/profile.d/maven.sh
+  591  2020-11-18 16:45:41 mvn -version
+  592  2020-11-18 16:45:48 source /etc/profile.d/maven.sh
+  593  2020-11-18 16:46:07 sudo dnf remove maven
+  594  2020-11-18 16:46:42 java -version
+  595  2020-11-18 16:46:53 mvn --version
+  596  2020-11-18 16:47:16 source /etc/profile.d/maven.sh
+  597  2020-11-18 16:47:19 mvn --version
+  598  2020-11-18 16:47:36 ll
+  599  2020-11-18 16:48:14 rm -fr apache-maven-3.6.3
+  600  2020-11-18 16:48:19 sudo rm -fr apache-maven-3.6.3
+  601  2020-11-18 16:48:24 ll
+  602  2020-11-18 16:48:32 rm maven 
+  603  2020-11-18 16:48:33 ll
+  604  2020-11-18 16:48:52 cp apache-maven-3.6.3-bin.tar.gz /opt/
+  605  2020-11-18 16:48:57 sudo cp apache-maven-3.6.3-bin.tar.gz /opt/
+  606  2020-11-18 16:49:04 cd /opt/
+  607  2020-11-18 16:49:06 ll
+  608  2020-11-18 16:49:13 sudo tar xzf apache-maven-3.6.3-bin.tar.gz
+  609  2020-11-18 16:49:50 l
+  610  2020-11-18 16:49:53 ll
+  611  2020-11-18 16:50:00 sudo ln -s apache-maven-3.6.3 maven
+  612  2020-11-18 16:50:07 sudo vi /etc/profile.d/maven.sh
+  613  2020-11-18 16:50:20 source /etc/profile.d/maven.sh
+  614  2020-11-18 16:50:35 mvn --version
+  615  2020-11-18 16:51:21 cd Desktop/SOFIA/Learning/
+  616  2020-11-18 16:51:22 ll
+  617  2020-11-18 16:51:29 cd 3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/
+  618  2020-11-18 16:51:29 ll
+  619  2020-11-18 16:51:35 cd exercise_1/
+  620  2020-11-18 16:51:37 ls
+  621  2020-11-18 16:51:40 cd RH-DO288_exercise_1/
+  622  2020-11-18 16:51:57 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  623  2020-11-18 16:52:10 ls
+  624  2020-11-18 16:52:13 cd getting-started/
+  625  2020-11-18 16:52:15 ll
+  626  2020-11-18 17:17:21 git add .
+  627  2020-11-18 17:17:24 git status
+  628  2020-11-18 17:17:34 ll
+  629  2020-11-18 17:17:46 pwd
+  630  2020-11-18 17:17:57 cd ..
+  631  2020-11-18 17:17:59 ll
+  632  2020-11-18 17:18:08 mv getting-started app
+  633  2020-11-18 17:18:10 ll
+  634  2020-11-18 17:18:12 cd app
+  635  2020-11-18 17:18:15 git add
+  636  2020-11-18 17:18:18 git add .
+  637  2020-11-18 17:18:20 git status
+  638  2020-11-18 17:18:35 git commit -m "Added App"
+  639  2020-11-18 17:18:38 git push
+  640  2020-11-18 17:20:21 git rm -r --cache  getting-started
+  641  2020-11-18 17:20:34 git rm -r --cache  getting-started/
+  642  2020-11-18 17:21:02 git rm -r   getting-started
+  643  2020-11-18 17:22:06 ls
+  644  2020-11-18 17:22:15 cd ..
+  645  2020-11-18 17:22:17 git rm -r   getting-started
+  646  2020-11-18 17:22:40 git commit -m "deleted"
+  647  2020-11-18 17:22:42 git push
+  648  2020-11-18 17:44:54 pwd
+  649  2020-11-18 17:44:56 ll
+  650  2020-11-18 17:45:24 cd app/
+  651  2020-11-18 17:45:25 ls
+  652  2020-11-18 17:45:31 cd src/main/
+  653  2020-11-18 17:45:32 ll
+  654  2020-11-18 17:59:41 cd java/
+  655  2020-11-18 17:59:43 ll
+  656  2020-11-18 17:59:46 cd org/acme/getting/started/
+  657  2020-11-18 17:59:48 ll
+  658  2020-11-18 17:59:53 vim GreetingResource.java 
+  659  2020-11-18 18:02:31 cp GreetingResource.java GreetingResource_v2.java 
+  660  2020-11-18 18:02:36 vim GreetingResource_v2.java 
+  661  2020-11-18 18:03:49 git add .
+  662  2020-11-18 18:04:21 git commit -m "Added env variables to GreetingResource.java"
+  663  2020-11-18 18:04:25 git push
+  664  2020-11-19 08:08:02 oc get project | grep svidalur
+  665  2020-11-19 08:58:32 oc get pod
+  666  2020-11-19 08:58:38 oc get route
+  667  2020-11-19 08:58:52 oc expose svc jenkins
+  668  2020-11-19 09:01:09 oc describe jenkins
+  669  2020-11-19 09:11:15 oc get secrets | grep jenkins
+  670  2020-11-19 09:11:44 oc get secret
+  671  2020-11-19 09:12:03 oc describe jenkins-operator-dockercfg-xzhc9
+  672  2020-11-19 09:12:56 oc get secret jenkins-operator-dockercfg-xzhc9 -o jsonpath={.data.user}' | base64
+  673  2020-11-19 09:13:05 oc get secret jenkins-operator-dockercfg-xzhc9 -o jsonpath={.data.user}' 
+  674  2020-11-19 09:13:34 oc get secret jenkins-operator-dockercfg-xzhc9 -o 'jsonpath={.data.user}' | base64
+  675  2020-11-19 09:13:39 oc get secret jenkins-operator-dockercfg-xzhc9 -o 'jsonpath={.data.user}' 
+  676  2020-11-19 09:13:51 oc get secret jenkins-operator-dockercfg-xzhc9 
+  677  2020-11-19 09:15:13 oc get secret jenkins-operator-dockercfg-xzhc9 -o json
+  678  2020-11-19 09:15:57 oc get secret | grep jenksin
+  679  2020-11-19 09:16:02 oc get secret | grep jenkins
+  680  2020-11-19 09:16:22 oc get secret jenkins-operator-token-5g26n -o json
+  681  2020-11-19 09:17:49 oc get secret jenkins-operator-token-5g26n -o json | grep data
+  682  2020-11-19 09:17:58 oc get secret jenkins-operator-token-5g26n -o json | grep user
+  683  2020-11-19 09:18:03 oc get secret | grep jenkins
+  684  2020-11-19 09:18:17 oc get secret jenkins-operator-dockercfg-xzhc9 -o json | grep user
+  685  2020-11-19 09:20:20 oc get pods
+  686  2020-11-19 09:20:30 oc project svidalur-jenkins 
+  687  2020-11-19 09:24:20 oc new-app --as-deploymentconfig jenkins-ephemeral -p MEMORY_LIMIT=048Mi
+  688  2020-11-19 09:24:29 oc new-app --as-deployment-config jenkins-ephemeral -p MEMORY_LIMIT=048Mi
+  689  2020-11-19 09:24:34 oc get pod
+  690  2020-11-19 09:26:35 oc get logs jenkins-1-s7tgr 
+  691  2020-11-19 09:26:55 oc get logs jenkins-1-deploy
+  692  2020-11-19 09:27:00 oc get pod
+  693  2020-11-19 09:27:09 oc delete all -l app=jenkins
+  694  2020-11-19 09:28:22 oc create -f deploy/crds/jenkins_ephemeral_v1alpha1_jenkins_cr.yaml
+  695  2020-11-19 09:30:15 oc get templates -n openshift | grep jenkins
+  696  2020-11-19 09:30:55 oc new-app --as-deployment-config jenkins-ephemeral -p MEMORY_LIMIT=2048Mi
+  697  2020-11-19 09:31:07 oc get pod
+  698  2020-11-19 09:31:17 oc delete project svidalur-jenkins 
+  699  2020-11-19 09:31:28 oc get project | grep svidalur
+  700  2020-11-19 09:31:56 oc get pods
+  701  2020-11-19 09:32:11 oc new-project svidalur-jenkins
+  702  2020-11-19 09:32:15 oc get pod
+  703  2020-11-19 09:32:32 oc get secret jenkins-operator-dockercfg-xzhc9 -o json | grep user
+  704  2020-11-19 09:32:42 oc get templates -n openshift | grep jenkins
+  705  2020-11-19 09:33:14 oc new-app --as-deployment-config jenkins-ephemeral -p MEMORY_LIMIT=2048Mi
+  706  2020-11-19 09:33:20 oc status
+  707  2020-11-19 09:33:25 oc get pod
+  708  2020-11-19 09:35:00 oc get route
+  709  2020-11-19 09:37:37 oc get secret | grep jenkins
+  710  2020-11-19 09:39:37 oc get templates -n openshift | grep nexus
+  711  2020-11-19 10:24:48 oc get templates -n openshift | grep sonatype
+  712  2020-11-19 10:39:18 oc get pod
+  713  2020-11-19 10:39:45 oc project openshift-operator
+  714  2020-11-19 10:39:48 oc project openshift-operators
+  715  2020-11-19 10:39:53 oc get pod
+  716  2020-11-19 10:39:58 oc get orute
+  717  2020-11-19 10:40:03 oc get route
+  718  2020-11-19 10:40:24 oc expose svc nexus-operator-metrics
+  719  2020-11-19 10:40:28 oc get orute
+  720  2020-11-19 10:40:34 oc get route
+  721  2020-11-19 10:41:11 oc project svidalur-jenkins 
+  722  2020-11-19 10:41:16 oc get pod
+  723  2020-11-19 10:48:26 oc get bc
+  724  2020-11-19 10:48:33 oc create bc
+  725  2020-11-19 10:52:39 oc get buildconfig
+  726  2020-11-19 11:19:25 o cget pod
+  727  2020-11-19 11:19:33 oc get pod
+  728  2020-11-19 11:20:03 oc delete project svidalur-jenkins 
+  729  2020-11-19 11:20:07 oc new-project 
+  730  2020-11-19 11:20:14 oc new-project cicd
+  731  2020-11-19 11:20:20 oc get pod
+  732  2020-11-19 12:47:31 oc new-project svidalur-cicd
+  733  2020-11-19 12:47:39 oc login -u kubeadmin -p Kc6t4-JHDTa-t4RbF-jtQ4A https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  734  2020-11-19 12:51:48 oc project cicd
+  735  2020-11-19 12:51:54 oc login -u my_user -p my_password https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  736  2020-11-19 12:52:16 oc get ServiceAccountName
+  737  2020-11-19 12:52:23 oc get ServiceAccount
+  738  2020-11-19 12:53:11 oc get route
+  739  2020-11-19 12:57:11 oc project
+  740  2020-11-19 12:57:41 oc get scc
+  741  2020-11-19 12:57:58 oc get scc | grep nexus
+  742  2020-11-19 17:01:46 sudo subscription-manager list --available  | grep subscriptio Type
+  743  2020-11-19 17:02:08 oc get scc | grep nexus
+  744  2020-11-19 17:02:25 oc get serviceaccount
+  745  2020-11-20 09:16:53 ll
+  746  2020-11-20 11:21:10 oc get pod
+  747  2020-11-20 12:18:17 pwd
+  748  2020-11-20 12:18:30 cd /home/svidalur/Desktop/SOFIA/Learning/3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/exercise_1/RH-DO288_exercise_1/app/src/main
+  749  2020-11-20 12:18:32 ll
+  750  2020-11-20 12:19:19 tcd /home/svidalur/Desktop/SOFIA/Learning/3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/exercise_1/RH-DO288_exercise_1/app
+  751  2020-11-20 12:19:23 cd /home/svidalur/Desktop/SOFIA/Learning/3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/exercise_1/RH-DO288_exercise_1/app
+  752  2020-11-20 12:19:27 pwd
+  753  2020-11-20 12:19:28 ll
+  754  2020-11-20 12:20:48 podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+  755  2020-11-20 12:21:58 sudo podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+  756  2020-11-20 12:23:26 sudo podman run -it helloworld:latest
+  757  2020-11-20 14:45:18 sudo podman images
+  758  2020-11-20 14:45:52 sudo podman run helloworld 
+  759  2020-11-20 14:46:22 ll
+  760  2020-11-26 11:52:08 pwd
+  761  2020-11-26 11:52:25 ./aws-ocp4-install.sh  ./labs-aws-ocp4-config_SOFIA 
+  762  2020-11-26 11:52:30 ll
+  763  2020-11-26 11:52:43 ./aws-ocp4-install.sh labs-aws-ocp4-config_SOFIA 
+  764  2020-11-26 11:55:57 ll
+  765  2020-11-26 11:56:18 ./aws-ocp4-install.sh labs-aws-ocp4-config_17-11-2020 
+  766  2020-11-26 11:56:47 ./aws-ocp4-install.sh ./labs-aws-ocp4-config_SOFIA 
+  767  2020-11-26 11:57:22 export AWS_ACCESS_KEY_ID=AKIA6OI3AHVT3UCEFX5P
+  768  2020-11-26 11:57:28 export AWS_SECRET_ACCESS_KEY=jUDaWk7T142WuuU80GVn4/eXl1XivG81lWoa3Pas0
+  769  2020-11-26 11:57:34 export AWS_DEFAULT_REGION=eu-west-1
+  770  2020-11-26 11:57:41 env | grep AWS
+  771  2020-11-26 11:57:48 ./aws-ocp4-install.sh ./labs-aws-ocp4-config_SOFIA 
+  772  2020-11-26 12:01:20 export AWS_SECRET_ACCESS_KEY=UDaWk7T142WuuU80GVn4/eXl1XivG81lWoa3Pas0
+  773  2020-11-26 12:01:22 ./aws-ocp4-install.sh ./labs-aws-ocp4-config_SOFIA 
+  774  2020-11-26 14:50:09 oc get project
+  775  2020-11-26 15:48:37 ll
+  776  2020-11-26 15:48:41 cd auth/
+  777  2020-11-26 15:48:42 ll
+  778  2020-11-26 15:48:47 cat users.htpasswd 
+  779  2020-11-26 15:50:06 oc login -u my_user -p my_password https://api.cluster461nov.sandbox1562.opentlc.com:6443
+  780  2020-11-26 15:50:25 oc login -u my_user -p my_password https://api.cluster461nov2.sandbox134.opentlc.com:6443 
+  781  2020-11-26 15:50:42 oc new-project svidalur-dev
+  782  2020-11-26 15:50:51  oc new-project svidalur-staging
+  783  2020-11-26 15:50:59 oc new-project svidalur-staging
+  784  2020-11-26 15:51:06 oc new-project svidalur-production
+  785  2020-11-26 15:51:29 oc new-project svidalur-cicd
+  786  2020-11-26 15:51:40 oc get project | grep svidalur
+  787  2020-11-26 15:53:20 oc project svidalur-cicd 
+  788  2020-11-26 15:53:55 oc get templates -n opneshift | grep jenkins
+  789  2020-11-26 15:54:31 oc adm policy add-cluster-role-to-user cluster-admin my_user
+  790  2020-11-26 15:59:31 oc login -u redhat -p redhat/home/svidalur/.local/share/keyrings https://api.cluster461nov2.sandbox134.opentlc.com:6443 
+  791  2020-11-26 16:00:15 export pw=redhat/home/svidalur/.local/share/keyrings
+  792  2020-11-26 16:00:31 export pw="redhat/home/svidalur/.local/share/keyrings"
+  793  2020-11-26 16:00:59 export pw=redhat\!1
+  794  2020-11-26 16:01:06 cat $pw
+  795  2020-11-26 16:01:24 echo $pw
+  796  2020-11-26 16:01:34 oc login -u redhat -p $pw  https://api.cluster461nov2.sandbox134.opentlc.com:6443 
+  797  2020-11-26 16:02:16 oc adm policy add-cluster-role-to-user cluster-admin my_user
+  798  2020-11-26 16:02:32 oc login -u my_user -p my_password https://api.cluster461nov2.sandbox134.opentlc.com:6443 
+  799  2020-11-26 16:02:37 oc get templates -n opneshift | grep jenkins
+  800  2020-11-26 16:02:45 oc get template -n opneshift | grep jenkins
+  801  2020-11-26 16:02:52 oc get template -n opneshift 
+  802  2020-11-26 16:02:57 cd ..
+  803  2020-11-26 16:03:11 oc get porject | grep svidalur
+  804  2020-11-26 16:03:20 oc get project | grep svidalur
+  805  2020-11-26 16:12:18 oc get template -n opneshift 
+  806  2020-11-26 16:12:32 oc get template -n openshift | grep jenkins
+  807  2020-11-26 16:14:12 oc new-app --as-deployment-config jenkins-ephemeral -p MEMORY_LIMIT=2048Mi
+  808  2020-11-26 16:14:18 oc get pod
+  809  2020-11-26 16:14:41 oc get route
+  810  2020-11-26 16:15:02 oc get pod
+  811  2020-11-26 16:21:55 oc get route
+  812  2020-11-26 16:24:47 oc get pod
+  813  2020-11-26 16:30:24 oc get route
+  814  2020-11-26 16:31:35 oc get pod
+  815  2020-11-26 16:31:53 oc get service
+  816  2020-11-26 16:32:27 oc get route
+  817  2020-11-26 16:32:45 oc expose app-nexus
+  818  2020-11-26 16:34:48 oc get pod
+  819  2020-11-26 16:36:23 oc get route
+  820  2020-11-26 16:39:43 oc expose app2-nexus
+  821  2020-11-26 16:39:53 oc get service
+  822  2020-11-26 16:40:04 oc expose service app2-nexus
+  823  2020-11-26 16:40:11 oc get route
+  824  2020-11-27 09:12:24 oc get pod
+  825  2020-11-27 09:13:29 oc apply -f examples/scc-volatile.yaml
+  826  2020-11-27 09:13:30 oc adm policy add-scc-to-user allow-ne
+  827  2020-11-27 09:13:52 oc apply -f examples/scc-volatile.yaml
+  828  2020-11-27 09:17:08 oc get template | nexus
+  829  2020-11-27 09:17:29 pwd
+  830  2020-11-27 09:17:33 ll
+  831  2020-11-27 09:17:45 cd ..
+  832  2020-11-27 09:17:49 ll
+  833  2020-11-27 09:17:53 cd 3_DO288_OpenShift_DevelopmentII_Containerizing_Applications/
+  834  2020-11-27 09:17:55 ll
+  835  2020-11-27 09:17:59 cd exi
+  836  2020-11-27 09:18:02 ll
+  837  2020-11-27 09:19:29 cd exercise_1/
+  838  2020-11-27 09:19:31 ll
+  839  2020-11-27 09:19:35 cd RH-DO288_exercise_1/
+  840  2020-11-27 09:19:36 ll
+  841  2020-11-27 09:19:39 cd app/
+  842  2020-11-27 09:19:42 ll
+  843  2020-11-27 09:20:43 cd src/
+  844  2020-11-27 09:20:44 ll
+  845  2020-11-27 09:20:49 cd main/
+  846  2020-11-27 09:20:51 ll
+  847  2020-11-27 09:20:53 cd ocp/
+  848  2020-11-27 09:20:54 ll
+  849  2020-11-27 09:21:03 mkdir templates
+  850  2020-11-27 09:21:04 ll
+  851  2020-11-27 09:21:07 cd templates/
+  852  2020-11-27 09:21:54 touch scc-volatile.yaml
+  853  2020-11-27 09:22:37 ll
+  854  2020-11-27 09:23:35 vim scc-volatile.yaml 
+  855  2020-11-27 09:23:52 pwd
+  856  2020-11-27 09:24:31 cd ../..
+  857  2020-11-27 09:24:33 cd ..
+  858* 2020-11-27 09:24:39 
+  859  2020-11-27 09:30:08 oc adm policy add-scc-to-user allow-nexus-userid-200 -z my_user
+  860  2020-11-27 09:31:23 oc adm policy add-scc-to-user allow-nexus-userid-200 -z app-nexus
+  861  2020-11-27 09:32:31 oc get route
+  862  2020-11-27 09:34:33 vim src/main/ocp/templates/scc-volatile.yaml 
+  863  2020-11-27 09:34:52 oc get pod
+  864  2020-11-27 09:35:01 oc get route
+  865  2020-11-27 09:49:46 sudo podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+  866  2020-11-27 09:49:53 history
+  867  2020-11-27 09:50:18 history >> history.txt

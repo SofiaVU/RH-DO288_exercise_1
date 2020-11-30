@@ -1,0 +1,37 @@
+  556  2020-11-18 15:52:44 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme     -DprojectArtifactId=getting-started     -DclassName="org.acme.getting.started.GreetingResource"     -Dpath="/hello"
+  557  2020-11-18 15:52:58 mvn 
+  559  2020-11-18 15:55:49 sudo dnf install mvn
+  561  2020-11-18 15:58:41 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme     -DprojectArtifactId=getting-started     -DclassName="org.acme.getting.started.GreetingResource"     -Dpath="/hello"
+  562  2020-11-18 16:00:49 mvn version
+  563  2020-11-18 16:01:18 mvn -version
+  570  2020-11-18 16:21:27 sudo mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  575  2020-11-18 16:30:50 sudo mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  580  2020-11-18 16:39:34 mvn --version
+  584  2020-11-18 16:43:15 mvn -version
+  587  2020-11-18 16:44:12 mvn -version
+  591  2020-11-18 16:45:41 mvn -version
+  595  2020-11-18 16:46:53 mvn --version
+  597  2020-11-18 16:47:19 mvn --version
+  614  2020-11-18 16:50:35 mvn --version
+  676  2020-11-19 11:34:16 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  695  2020-11-19 11:49:53 mvn clean install 
+  697  2020-11-19 11:50:36 mvn --version
+  712  2020-11-19 12:02:59 mvn clean install
+  721  2020-11-19 12:04:57 mvn clean install
+  725  2020-11-19 12:12:23 which mvn
+  729  2020-11-19 12:20:56 mvn clean
+  732  2020-11-19 12:21:16 mvn clean package
+  735  2020-11-19 12:23:12 ./mvnw compile quarkus:dev
+  737  2020-11-19 12:30:26 ./mvnw compile quarkus:dev
+  738  2020-11-19 12:33:18 ./mvnw package
+  779  2020-11-20 10:46:50 ./mvnw compile quarkus:dev
+  781  2020-11-20 10:51:48 mvn clean
+  783  2020-11-20 10:52:05 ./mvnw package -Dnative -Dquarkus.native.container-build=true
+  791  2020-11-20 12:08:12 mvn clean 
+  793  2020-11-20 12:08:22 mvn package
+mvn --version
+  815  2020-11-18 16:51:57 mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create     -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+  986  2020-11-27 10:31:20 history | grep mvn
+  992  2020-11-27 10:34:10 mvn clean
+  994  2020-11-27 10:34:47 history | grep mvn 
+  995  2020-11-27 10:35:01 history | grep mvn >> history_mvn.txt

@@ -1,0 +1,60 @@
+  150  2020-10-15 08:33:08 sudo podman search mysql
+  151  2020-10-15 08:34:51 yum install podman
+  152  2020-10-15 08:34:57 sudo yum install podman
+  153  2020-10-15 08:39:58 sudo podman search mysql
+  154  2020-10-15 08:49:58 sudo podman build -t registry.access.redhat.com/rhscl/mysql-57-rhel7 --layers=false
+  155  2020-10-15 08:50:18 sudo podman pull registry.access.redhat.com/rhscl/mysql-57-rhel7
+  157  2020-10-15 08:52:19 sudo podman images
+  159  2020-10-15 08:55:48 sudo podman search nodejs
+  160  2020-10-15 08:58:59 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8
+  161  2020-10-15 09:00:07 sudo podman images
+  162  2020-10-15 09:00:25 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8 | grep rhel
+  163  2020-10-15 09:00:41 sudo podman search nodejs | grep rhel
+  164  2020-10-15 09:01:58 sudo podman search nodejs
+  165  2020-10-15 09:02:22 sudo podman pull registry.access.redhat.com/ubi7/nodejs-8
+  166  2020-10-15 09:11:02 sudo podman mages
+  167  2020-10-15 09:11:18 sudo podman images
+  168  2020-10-15 09:11:44 sudo podman build -t registry.access.redhat.com/ubi7/nodejs-8 --layers=false
+  169  2020-10-15 09:12:02 sudo podman build -t registry.access.redhat.com/ubi7/nodejs-8 --layers=false .
+  183  2020-10-15 15:29:14 podman search quay.io/dsanchor/credit:ubi-min-8
+  184  2020-10-15 15:29:51 podman search quay.io/dsanchor/credit
+  195  2020-10-15 15:32:10 podman images
+  196  2020-10-15 15:32:43 podman pull quay.io/dsanchor/credit::ubi-min-8
+  197  2020-10-15 15:32:55 podman pull quay.io/dsanchor/credit:ubi-mi
+  198  2020-10-15 15:33:04 podman pull quay.io/dsanchor/credit
+  199  2020-10-15 15:33:10 podman images
+  200  2020-10-15 15:34:29 podman pull quay.io/dsanchor/credit/ubi-mi
+  201  2020-10-15 15:34:57 podman pull quay.io/dsanchor/credit
+  202  2020-10-15 15:35:47 podman pull http://quay.io/dsanchor/credit:ubi-min-8
+  203  2020-10-15 15:35:56 podman pull quay.io/dsanchor/credit:ubi-min-8
+  209  2020-10-15 15:41:32 sudo podman pull quay.io/dsanchor/credit:ubi-min-8
+  210  2020-10-15 15:42:01 podman images
+  211  2020-10-15 15:42:40 sudo podman images
+  212  2020-10-15 15:44:35 sudo podman tag quay.io/dsanchor/credit:ubi-min-8 quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  213  2020-10-15 15:44:38 sudo podman images
+  214  2020-10-15 15:53:32 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  217  2020-10-15 15:55:06 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  218  2020-10-15 16:00:23 sudo podman images
+  219  2020-10-15 16:01:09 sudo podman ps -a
+  222  2020-10-15 16:01:31 sudo podman images
+  223  2020-10-15 16:03:11 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning/quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  224  2020-10-15 16:03:24 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  230  2020-10-15 16:27:49 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  232  2020-10-15 16:29:35 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning
+  233  2020-10-15 16:30:40 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning:credit:ubi-min-8-svidalurPodman
+  234  2020-10-15 16:30:52 sudo podman push quay.io/dsanchor/credit:ubi-min-8-svidalurPodman quay.io/svidalur/container_images_lerning:ubi-min-8-svidalurPodman
+  235  2020-10-15 16:33:57 podman images
+  236  2020-10-15 16:34:00 sudo podman images
+  237  2020-10-15 16:34:19 sudo podman rmi quay.io/dsanchor/credit:ubi-min-8-svidalurPodman
+  238  2020-10-15 16:34:25 sudo podman images
+  239  2020-10-15 16:35:49 sudo podman rmi quay.io/dsanchor/credit:ubi-min-8
+  240  2020-10-15 16:35:56 sudo podman images
+  285  2020-10-19 08:59:16 sudo podman images
+  288  2020-10-19 09:01:22 sudo podman images
+  290  2020-10-19 09:01:27 sudo podman images
+  754  2020-11-20 12:20:48 podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+  755  2020-11-20 12:21:58 sudo podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+  756  2020-11-20 12:23:26 sudo podman run -it helloworld:latest
+  757  2020-11-20 14:45:18 sudo podman images
+  758  2020-11-20 14:45:52 sudo podman run helloworld 
+  865  2020-11-27 09:49:46 sudo podman build -f src/main/docker/Dockerfile  . -t helloworld:latest

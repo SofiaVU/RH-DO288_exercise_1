@@ -1,0 +1,30 @@
+ 1011  2020-11-27 10:41:57 sudo podman run helloworld 
+ 1012  2020-11-28 11:48:36 sudo podman ps -a 
+ 1013  2020-11-28 11:48:53 java -jar target/getting-started-1.0-SNAPSHOT-runner.jar 
+ 1014  2020-11-28 11:49:29 sudo podman run helloworld 
+ 1015  2020-11-28 11:49:58 sudo podman run helloworld -d
+ 1016  2020-11-28 11:50:13 sudo podman run -d helloworld 
+
+
+
+sudo podman network inspect podman
+sudo podman ps -a
+sudo podman exec -it 092f58e74965 bash
+
+mvn package -Dquarkus.package.uber-jar=true
+
+sudo podman stop -a
+sudo podman ps -a
+sudo podman images
+sudo podman rmi 2e
+sudo podman images
+sudo podman build -f src/main/docker/Dockerfile  . -t helloworld:latest
+sudo podman images
+sudo podman run -d helloworld
+sudo podman ps -a
+sudo podman inspect 15
+sudo podman inspect 15 | grep 10.
+
+
+oc login -u my_user -p my_password https://api.cluster461nov2.sandbox134.opentlc.com:6443
+oc get pod
