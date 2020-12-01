@@ -81,7 +81,7 @@ pipeline {
                 script {
                     openshift.withCluster() {
                       openshift.withProject(env.DEV_PROJECT) {
-                        openshift.selector("bc", "${APP_NAME}").startBuild("--from-file=${APP_NAME}/target/*-runner.jar", "--wait=true", "--follow=true")
+                        openshift.selector("bc", "${APP_NAME}").startBuild("--from-file=${APP_NAME}/target/getting-started-1.0-SNAPSHOT-runner.jar", "--wait=true", "--follow=true")
                       }
                     }
                 }
