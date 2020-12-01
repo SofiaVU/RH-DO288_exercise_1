@@ -2,21 +2,21 @@
     "kind": "BuildConfig",
     "apiVersion": "build.openshift.io/v1",
     "metadata": {
-        "name": "custom-pipeline"
+        "name": "app-pipeline"
     },
     "spec": {
         "source": {
             "type": "Git",
             "git": {
-                "uri": "https://github.com/SofiaVU/DO288_exercise_1.git",
-                "ref": "custom-pipeline"
+                "uri": "https://github.com/SofiaVU/RH-DO288_exercise_1.git",
+                "ref": "master"
             },
             "contextDir": "app"
         },
         "strategy": {
             "type": "JenkinsPipeline",
             "jenkinsPipelineStrategy": {
-                "jenkinsfilePath": "src/main/ocp/Jenkinsfile"
+                "jenkinsfilePath": "Jenkinsfile"
             }
         }
     }

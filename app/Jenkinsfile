@@ -16,13 +16,16 @@ pipeline {
     environment {
         //TODO: Customize these variables for your environment
         DEV_PROJECT = "svidal-dev"
-        STAGE_PROJECT = "svidlaur-staging"
-        PRODUCTION_PROJECT = "svidlaur-production"
+        STAGE_PROJECT = "svidlaur-stage"
+        PRODUCTION_PROJECT = "svidlaur-prod"
         APP_GIT_URL = "https://github.com/SofiaVU/RH-DO288_exercise_1"
-        //NEXUS_SERVER = "http://nexus-common.apps.cluster.domain.example.com/repository/java"
+        NEXUS_SERVER = "http://app-nexus-svidalur-cicd.apps.cluster461nov2.sandbox134.opentlc.com/repository/maven-public/"
 
         // working directory
         APP_NAME = "app"
+
+        // Env variable to pass to the app
+        APP_MSG = "Sofia"
     }
 
 
@@ -52,9 +55,14 @@ pipeline {
         stage('Create fat JAR') {
             steps {
                 echo '### Creating fat JAR ###'
+                //sh '''
+                //        cd ${APP_NAME}
+                //        mvn -s settings.xml -B clean package -DskipTests=true
+                //   '''
+                //  mvn package -Dquarkus.package.uber-jar=true
                 sh '''
                         cd ${APP_NAME}
-                        mvn -s settings.xml -B clean package -DskipTests=true
+                        mvn -s settings.xml -B clean package -Dquarkus.package.uber-jar=true -DskipTests=true
                    '''
             }
         }
@@ -73,16 +81,17 @@ pipeline {
                 script {
                     openshift.withCluster() {
                       openshift.withProject(env.DEV_PROJECT) {
-                        openshift.selector("bc", "${APP_NAME}").startBuild("--from-file=${APP_NAME}/target/${APP_NAME}.jar", "--wait=true", "--follow=true")
+                        openshift.selector("bc", "${APP_NAME}").startBuild("--from-file=${APP_NAME}/target/*-runner.jar", "--wait=true", "--follow=true")
                       }
                     }
                 }
                 // TODO: Create a new OpenShift application based on the TEMPLATE with :dev TAG
                 // TODO: Expose the ${APP_NAME} service for external access 
                 // TAG ???? 
+                // oc new-app --as-deployment-config --name ${APP_NAME}:dev -f ~/app-template.yaml
                 sh '''
                     oc project svidalur-dev
-                    oc new-app --as-deployment-config --name ${APP_NAME}:dev -f ~/app-template.yaml
+                    oc new-app --as-deployment-config --name ${APP_NAME}:latest
                     oc expose svc/${APP_NAME} 
                  '''
                 // ?????
