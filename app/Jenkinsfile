@@ -88,10 +88,18 @@ pipeline {
                 // TODO: Create a new OpenShift application based on the TEMPLATE with :dev TAG
                 // TODO: Expose the ${APP_NAME} service for external access 
                 // TAG ???? 
+
+                // IMAGE STREAM
+                // oc new-app --as-deployment-config --name ${APP_NAME}:latest
+
+                // TEMPLATE
                 // oc new-app --as-deployment-config --name ${APP_NAME}:dev -f ~/app-template.yaml
+
+                // DOCKERFILE
+                // oc new-app --as-deployment-config --name app https://github.com/SofiaVU/RH-DO288_exercise_1#master --context-dir app/src/main/docker/
                 sh '''
                     oc project svidalur-dev
-                    oc new-app --as-deployment-config --name ${APP_NAME}:latest
+                    oc new-app --as-deployment-config --name app https://github.com/SofiaVU/RH-DO288_exercise_1#master --context-dir app/src/main/docker
                     oc expose svc/${APP_NAME} 
                  '''
                 // ?????
@@ -144,9 +152,11 @@ pipeline {
 
                 echo '### Creating a new app in Staging ###'
                 // TODO: Create a new app in staging and expose the service
+                // IMAGE STREAM
+                // oc new-app --as-deployment-config --name ${APP_NAME} -i ${APP_NAME}:stage
                 sh '''
-                    oc project ${STAGE_PROJECT}
-                    oc new-app --as-deployment-config --name ${APP_NAME} -i ${APP_NAME}:stage
+                    oc project ${STAGE_PROJECT}                    
+                    oc new-app --as-deployment-config --name app https://github.com/SofiaVU/RH-DO288_exercise_1#master --context-dir app/src/main/docker
                     oc expose svc/${APP_NAME}
                 '''
             }
