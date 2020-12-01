@@ -19,7 +19,7 @@ pipeline {
         STAGE_PROJECT = "svidlaur-stage"
         PRODUCTION_PROJECT = "svidlaur-prod"
         APP_GIT_URL = "https://github.com/SofiaVU/RH-DO288_exercise_1"
-        NEXUS_SERVER = "http://app-nexus-svidalur-cicd.apps.cluster461nov2.sandbox134.opentlc.com/repository/maven-public/"
+        NEXUS_SERVER = "http://app-nexus-svidalur-cicd.apps.cluster461nov2.sandbox1543.opentlc.com/repository/maven-public/"
 
         // working directory
         APP_NAME = "app"
